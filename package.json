@@ -1,6 +1,6 @@
 {
   "name": "rightmove-scraper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Easily scrape rightmove property data.",
   "author": "Joe Reeve <joseph.reeve@googlemail.com>",
   "dependencies": {

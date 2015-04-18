@@ -1,5 +1,4 @@
 var request = require('sync-request');
-var Fiber = require('fibers');
 var db = require('mongojs').connect('test', ['rightmoveCodes']);
 var outcodes = {};
 db.rightmoveCodes.find({}, function(err, docs){
