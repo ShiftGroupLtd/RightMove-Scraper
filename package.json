@@ -4,9 +4,8 @@
   "description": "Easily scrape rightmove property data.",
   "author": "Joe Reeve <joseph.reeve@googlemail.com>",
   "dependencies": {
-    "mongo-sync": "2.x.x",
-    "sync-request": "2.x.x",
-    "fibers": "1.0.x"
+    "mongojs": "0.18.x",
+    "sync-request": "2.x.x"
   },
   "engine": "node >= 0.4.1",
   "main": "RightMoveScraper.js",
