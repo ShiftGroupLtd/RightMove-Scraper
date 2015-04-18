@@ -1,14 +1,15 @@
 {
-  "name": "zoopla-scraper",
+  "name": "rightmove-scraper",
   "version": "0.1.0",
-  "description": "Easily scrape zoopla property data.",
+  "description": "Easily scrape rightmove property data.",
   "author": "Joe Reeve <joseph.reeve@googlemail.com>",
   "dependencies": {
-    "cheerio": "0.19.x",
-    "sync-request": "2.x.x"
+    "mongo-sync": "2.x.x",
+    "sync-request": "2.x.x",
+    "fibers": "1.0.x"
   },
   "engine": "node >= 0.4.1",
-  "main": "ZooplaScraper.js",
+  "main": "RightMoveScraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +21,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ISNIT0/Zoopla-Scraper"
+    "url": "https://github.com/ISNIT0/rightmove-Scraper"
   },
   "bugs": {
-    "url": "https://github.com/ISNIT0/Zoopla-Scraper/issues"
+    "url": "https://github.com/ISNIT0/rightmove-Scraper/issues"
   },
-  "homepage": "https://github.com/ISNIT0/Zoopla-Scraper"
+  "homepage": "https://github.com/ISNIT0/rightmove-Scraper"
 }
